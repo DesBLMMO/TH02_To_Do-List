@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm công việc"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên công việc"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTenCongViec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên công việc"
+        android:inputType="text"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thời gian hoàn thành"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnChonThoiGian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn thời gian"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ghi chú"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtGhiChu"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:hint="Nhập ghi chú"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnLuu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LƯU CÔNG VIỆC" />
+
+</LinearLayout>
